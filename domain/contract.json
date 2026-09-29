@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "非遗材料捐赠隔离",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "捐赠方",
+    "学校资产管理员",
+    "使用教师"
+  ],
+  "states": [
+    "登记",
+    "隔离",
+    "验收",
+    "放行",
+    "领用"
+  ],
+  "invariants": [
+    "捐赠限制",
+    "隔离库存",
+    "部分放行",
+    "去向追踪"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-015-A",
+      "actor": "捐赠方",
+      "state": "登记"
+    },
+    {
+      "case_id": "09302-015-B",
+      "actor": "使用教师",
+      "state": "隔离"
+    }
+  ],
+  "tags": [
+    "donation-intake",
+    "quarantine-inventory"
+  ]
+}
