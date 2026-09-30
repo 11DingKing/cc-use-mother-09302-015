@@ -1,6 +1,13 @@
 [project]
 name = "domain-contract-09302-015"
 version = "0.1.0"
-description = "非遗材料捐赠隔离的领域约定与校验工具"
+description = "非遗材料捐赠隔离的领域约定、校验工具与隔离台账服务端"
 requires-python = ">=3.11"
 dependencies = []
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
